@@ -29,16 +29,17 @@ Um livro deve conter os seguintes campos:
 A API deve disponibilizar os seguintes endpoints:
 
 1. **POST /livros**: Cria um novo livro.
-2. **GET /livros**: Retorna todos os livros cadastrados.
+2. **GET /livros/{id}**: Retorna um livro específico.
 3. **PUT /livros/{id}**: Atualiza as informações de um livro existente.
 4. **DELETE /livros/{id}**: Exclui um livro pelo seu identificador.
+5. **GET /livros**: Retorna todos os livros cadastrados.
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **C#**: Linguagem principal do projeto.
 - **ASP.NET Core**: Framework para construção da API.
 - **Entity Framework**: ORM para gerenciamento do banco de dados.
-- **SQL Server**: Banco de dados relacional utilizado para armazenar as informações dos livros.
+- **SQLite**: Banco de dados relacional utilizado para armazenar as informações dos livros.
 
 ## 📦 Como Executar o Projeto
 
